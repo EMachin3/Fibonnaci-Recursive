@@ -25,7 +25,9 @@ public class fibonacciRecursive {
 	}
 	public static void main(String[] args){
 	Scanner myObj = new Scanner(System.in);
+	System.out.println("How many terms should the fibonacci sequence have?");
 	int fibLength = Integer.parseInt(myObj.nextLine());
+	System.out.println("Here's your sequence in descending order:");
 	ArrayList<Integer> sequence = fibonacci(fibLength);
 	//System.out.println(sequence);
 	int n1 = sequence.get(fibLength-1);
